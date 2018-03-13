@@ -1,0 +1,5 @@
+<application>
+  <component name="NsSettings">
+    <option name="executablePath" value="/usr/local/bin/tns" />
+  </component>
+</application>

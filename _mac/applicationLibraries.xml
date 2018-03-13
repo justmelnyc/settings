@@ -1,0 +1,37 @@
+<application>
+  <component name="libraryTable">
+    <library name="flickity.pkgd" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_npmcdn.com_flickity@1.2_dist_flickity.pkgd.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_npmcdn.com_flickity@1.2_dist_flickity.pkgd.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="froogaloop2" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_f.vimeocdn.com_js_froogaloop2.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_f.vimeocdn.com_js_froogaloop2.min.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="html5media" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_api.html5media.info_1.1.8_html5media.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_api.html5media.info_1.1.8_html5media.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>

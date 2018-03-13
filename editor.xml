@@ -1,0 +1,9 @@
+<application>
+  <component name="EditorSettings">
+    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+  </component>
+  <component name="LiveEditOptions" chromeUpdateApp="true" />
+  <component name="XmlEditorOptions">
+    <option name="showCssInlineColorPreview" value="true" />
+  </component>
+</application>
