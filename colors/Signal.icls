@@ -4,7 +4,7 @@
     <property name="created">2018-03-13T00:23:30</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2018-03-13T14:11:44</property>
+    <property name="modified">2018-03-13T14:32:59</property>
     <property name="originalScheme">Burn copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -537,7 +537,7 @@
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="242424" />
-        <option name="BACKGROUND" value="92ddb4" />
+        <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
