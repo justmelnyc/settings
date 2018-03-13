@@ -4,7 +4,7 @@
     <property name="created">2018-03-13T00:23:30</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2018-03-13T13:55:47</property>
+    <property name="modified">2018-03-13T14:11:44</property>
     <property name="originalScheme">Burn copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -478,8 +478,7 @@
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="bf616a" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="BACKGROUND" value="ea3360" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -537,8 +536,8 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="eff1f5" />
-        <option name="BACKGROUND" value="4f5b66" />
+        <option name="FOREGROUND" value="242424" />
+        <option name="BACKGROUND" value="92ddb4" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
@@ -619,13 +618,13 @@
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
-        <option name="FOREGROUND" value="7a7a7a" />
+        <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
-        <option name="FOREGROUND" value="7e7e7e" />
+        <option name="FOREGROUND" value="f6e093" />
         <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
