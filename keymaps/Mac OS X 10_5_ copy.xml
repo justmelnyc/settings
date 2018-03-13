@@ -18,10 +18,6 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
-  <action id="Tool_External Tools_Prettier">
-    <keyboard-shortcut first-keystroke="shift p" />
-    <keyboard-shortcut first-keystroke="alt p" />
-  </action>
   <action id="Tool_External Tools_prettier">
     <keyboard-shortcut first-keystroke="shift meta p" />
     <keyboard-shortcut first-keystroke="shift meta p" second-keystroke="meta s" />
