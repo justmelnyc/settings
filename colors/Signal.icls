@@ -4,7 +4,7 @@
     <property name="created">2018-03-13T00:23:30</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2018-03-13T13:13:00</property>
+    <property name="modified">2018-03-13T13:55:47</property>
     <property name="originalScheme">Burn copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -266,8 +266,10 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="65737e" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="b2b2b2" />
+        <option name="BACKGROUND" value="ffffff" />
+        <option name="EFFECT_COLOR" value="b2b2b2" />
+        <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
@@ -391,8 +393,10 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="65737e" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="b2b2b2" />
+        <option name="BACKGROUND" value="ffffff" />
+        <option name="EFFECT_COLOR" value="b2b2b2" />
+        <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -774,6 +778,12 @@
         <option name="FOREGROUND" value="a8c023" />
         <option name="FONT_TYPE" value="2" />
         <option name="ERROR_STRIPE_COLOR" value="a74c0" />
+      </value>
+    </option>
+    <option name="TS.BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="6d6d6d" />
+        <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="TS.CLASS">
