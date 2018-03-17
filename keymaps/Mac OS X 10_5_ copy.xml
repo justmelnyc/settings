@@ -25,6 +25,9 @@
   <action id="RemoteHost.NewRemoteItem">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl meta alt slash" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
