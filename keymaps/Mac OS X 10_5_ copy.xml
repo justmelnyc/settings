@@ -40,6 +40,9 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="ctrl meta alt f" />
+  </action>
   <action id="Tool_External Tools_Prettier">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
