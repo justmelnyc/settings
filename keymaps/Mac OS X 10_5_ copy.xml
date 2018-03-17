@@ -53,4 +53,7 @@
     <keyboard-shortcut first-keystroke="shift meta p" />
     <keyboard-shortcut first-keystroke="shift meta p" second-keystroke="meta s" />
   </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="ctrl meta alt u" />
+  </action>
 </keymap>
