@@ -4,7 +4,7 @@
     <property name="created">2018-03-13T00:23:30</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2018-03-17T19:12:11</property>
+    <property name="modified">2018-03-15T13:05:51</property>
     <property name="originalScheme">Burn copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -723,8 +723,8 @@
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="b2b2b2" />
+        <option name="FOREGROUND" value="b2b2b2" />
+        <option name="BACKGROUND" value="ffffff" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
