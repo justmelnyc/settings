@@ -13,6 +13,9 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="Images.SetBackgroundImage">
+    <keyboard-shortcut first-keystroke="ctrl meta alt b" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
