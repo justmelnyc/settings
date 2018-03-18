@@ -4,21 +4,21 @@
     <property name="created">2018-03-13T00:23:30</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2018-03-16T09:48:14</property>
+    <property name="modified">2018-03-15T13:05:51</property>
     <property name="originalScheme">Burn copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_FONT_NAME" value="Fira Code" />
+  <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Fira Code" />
   <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="74faa2" />
+    <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="CARET_COLOR" value="bbbbbb" />
     <option name="CARET_ROW_COLOR" value="343d46" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2b303b" />
-    <option name="DELETED_LINES_COLOR" value="e83248" />
     <option name="FILESTATUS_ADDED" value="629755" />
     <option name="FILESTATUS_DELETED" value="6c6c6c" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6c6c" />
@@ -34,11 +34,11 @@
     <option name="FILESTATUS_addedOutside" value="629755" />
     <option name="FILESTATUS_changelistConflict" value="d5756c" />
     <option name="FILESTATUS_modifiedOutside" value="6897bb" />
-    <option name="GUTTER_BACKGROUND" value="2a2c34" />
+    <option name="GUTTER_BACKGROUND" value="2b303b" />
     <option name="INDENT_GUIDE" value="4f5b66" />
     <option name="LINE_NUMBERS_COLOR" value="eff1f5" />
     <option name="METHOD_SEPARATORS_COLOR" value="343d46" />
-    <option name="MODIFIED_LINES_COLOR" value="f0de64" />
+    <option name="MODIFIED_LINES_COLOR" value="415f69" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
     <option name="RIGHT_MARGIN_COLOR" value="323232" />
     <option name="SELECTED_INDENT_GUIDE" value="eff1f5" />
@@ -47,7 +47,6 @@
     <option name="SELECTION_FOREGROUND" value="eff1f5" />
     <option name="TEARLINE_COLOR" value="343d46" />
     <option name="WHITESPACES" value="505050" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="e83248" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
@@ -267,8 +266,10 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="65737e" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="b2b2b2" />
+        <option name="BACKGROUND" value="ffffff" />
+        <option name="EFFECT_COLOR" value="b2b2b2" />
+        <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
@@ -392,8 +393,10 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="65737e" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="b2b2b2" />
+        <option name="BACKGROUND" value="ffffff" />
+        <option name="EFFECT_COLOR" value="b2b2b2" />
+        <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -475,13 +478,13 @@
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="e03c3c" />
+        <option name="BACKGROUND" value="ea3360" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DIFF_CONFLICT">
       <value>
-        <option name="BACKGROUND" value="e83248" />
+        <option name="BACKGROUND" value="45302b" />
         <option name="ERROR_STRIPE_COLOR" value="8f5247" />
       </value>
     </option>
@@ -493,13 +496,13 @@
     </option>
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="74faa2" />
+        <option name="BACKGROUND" value="294436" />
         <option name="ERROR_STRIPE_COLOR" value="447152" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="427de6" />
+        <option name="BACKGROUND" value="385570" />
         <option name="ERROR_STRIPE_COLOR" value="43698d" />
       </value>
     </option>
@@ -533,8 +536,8 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="eff1f5" />
-        <option name="BACKGROUND" value="4f5b66" />
+        <option name="FOREGROUND" value="242424" />
+        <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
@@ -615,13 +618,13 @@
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
-        <option name="FOREGROUND" value="3e3e3e" />
+        <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
-        <option name="FOREGROUND" value="2e2e2e" />
+        <option name="FOREGROUND" value="f6e093" />
         <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
@@ -760,7 +763,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="eff1f5" />
-        <option name="BACKGROUND" value="2a2c34" />
+        <option name="BACKGROUND" value="2b303b" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -776,9 +779,15 @@
         <option name="ERROR_STRIPE_COLOR" value="a74c0" />
       </value>
     </option>
+    <option name="TS.BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="6d6d6d" />
+        <option name="BACKGROUND" value="ffffff" />
+      </value>
+    </option>
     <option name="TS.CLASS">
       <value>
-        <option name="FOREGROUND" value="989bff" />
+        <option name="FOREGROUND" value="7475ff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -821,7 +830,6 @@
     </option>
     <option name="TS.PARAMETER">
       <value>
-        <option name="FOREGROUND" value="52bad1" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -837,8 +845,8 @@
     </option>
     <option name="TYPO">
       <value>
-        <option name="FOREGROUND" value="242424" />
-        <option name="BACKGROUND" value="74faa2" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="2d39cf" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
