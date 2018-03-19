@@ -10,6 +10,10 @@
           <option name="url" value="git@github.com:justmelnyc/sgnl_.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:born2net/studio-lite.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Dropbox/—Framework/apps" />
