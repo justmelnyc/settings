@@ -1,11 +1,11 @@
-<scheme name="Signal" version="142" parent_scheme="Default">
+<scheme name="Sapiance" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-03-13T00:23:30</property>
+    <property name="created">2018-03-19T23:28:02</property>
     <property name="ide">WebStorm</property>
-    <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2018-03-19T10:31:34</property>
-    <property name="originalScheme">Burn copy</property>
+    <property name="ideVersion">2017.3.5.0.0</property>
+    <property name="modified">2018-03-19T23:35:04</property>
+    <property name="originalScheme">Signal</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="14" />
@@ -556,12 +556,13 @@
     </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="989ba8" />
+        <option name="FOREGROUND" value="adaeb1" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="c9cdde" />
+        <option name="FOREGROUND" value="ff8647" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="HTML_COMMENT">
@@ -579,12 +580,14 @@
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="545767" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="545767" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -764,7 +767,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="eff1f5" />
-        <option name="BACKGROUND" value="242424" />
+        <option name="BACKGROUND" value="737476" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
