@@ -1,11 +1,11 @@
-<scheme name="Signal" version="142" parent_scheme="Default">
+<scheme name="trismegistus" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-03-13T00:23:30</property>
+    <property name="created">2018-03-25T14:32:32</property>
     <property name="ide">WebStorm</property>
-    <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2018-03-19T10:31:34</property>
-    <property name="originalScheme">Burn copy</property>
+    <property name="ideVersion">2018.1.0.0</property>
+    <property name="modified">2018-03-25T15:01:17</property>
+    <property name="originalScheme">Signal</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="14" />
@@ -18,7 +18,7 @@
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="CARET_COLOR" value="bbbbbb" />
     <option name="CARET_ROW_COLOR" value="343d46" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="2b303b" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="101420" />
     <option name="FILESTATUS_ADDED" value="629755" />
     <option name="FILESTATUS_DELETED" value="6c6c6c" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6c6c" />
@@ -764,7 +764,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="eff1f5" />
-        <option name="BACKGROUND" value="242424" />
+        <option name="BACKGROUND" value="101420" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
