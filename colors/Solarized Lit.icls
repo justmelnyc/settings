@@ -4,7 +4,7 @@
     <property name="created">2018-04-16T11:49:24</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.3.5.0.0</property>
-    <property name="modified">2018-04-16T12:02:42</property>
+    <property name="modified">2018-04-16T18:29:11</property>
     <property name="originalScheme">Solarized Light (Darcula)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -13,17 +13,18 @@
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="baeeba" />
+    <option name="ADDED_LINES_COLOR" value="3ccdc4" />
     <option name="ANNOTATIONS_COLOR" value="586e75" />
     <option name="ANNOTATIONS_MERGED_COLOR" value="586e75" />
     <option name="CARET_COLOR" value="78e0b1" />
     <option name="CARET_ROW_COLOR" value="" />
     <option name="CONSOLE_BACKGROUND_KEY" value="f6f6ef" />
+    <option name="DELETED_LINES_COLOR" value="ed6964" />
     <option name="GUTTER_BACKGROUND" value="f6f6ef" />
     <option name="INDENT_GUIDE" value="eee8d5" />
-    <option name="LINE_NUMBERS_COLOR" value="" />
+    <option name="LINE_NUMBERS_COLOR" value="d6d6d6" />
     <option name="METHOD_SEPARATORS_COLOR" value="eee8d5" />
-    <option name="MODIFIED_LINES_COLOR" value="bccff9" />
+    <option name="MODIFIED_LINES_COLOR" value="2d39cf" />
     <option name="NOTIFICATION_BACKGROUND" value="73642" />
     <option name="RIGHT_MARGIN_COLOR" value="eee8d5" />
     <option name="SELECTED_INDENT_GUIDE" value="93a1a1" />
@@ -32,6 +33,7 @@
     <option name="SELECTION_FOREGROUND" value="fdf6e3" />
     <option name="TEARLINE_COLOR" value="93a1a1" />
     <option name="WHITESPACES" value="93a1a1" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="ed6964" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
