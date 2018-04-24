@@ -1488,7 +1488,7 @@
     </option>
     <option name="JS.GLOBAL_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="b58900" />
+        <option name="FOREGROUND" value="ff8647" />
       </value>
     </option>
     <option name="JS.GLOBAL_VARIABLE">
@@ -1561,7 +1561,7 @@
     </option>
     <option name="JS.STRING">
       <value>
-        <option name="FOREGROUND" value="2aa198" />
+        <option name="FOREGROUND" value="78e0b1" />
       </value>
     </option>
     <option name="JS.VALID_STRING_ESCAPE">
