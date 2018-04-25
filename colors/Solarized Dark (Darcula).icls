@@ -1,11 +1,14 @@
 <scheme name="Solarized Dark (Darcula)" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="baffba" />
     <option name="ANNOTATIONS_COLOR" value="586e75" />
     <option name="ANNOTATIONS_MERGED_COLOR" value="2aa198" />
     <option name="CARET_COLOR" value="dc322f" />
     <option name="CARET_ROW_COLOR" value="73642" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="2b36" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="313747" />
     <option name="GUTTER_BACKGROUND" value="313747" />
     <option name="INDENT_GUIDE" value="73642" />
     <option name="LINE_NUMBERS_COLOR" value="586e75" />
@@ -364,7 +367,7 @@
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="eb916d" />
       </value>
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
@@ -417,7 +420,7 @@
     </option>
     <option name="CONSOLE_USER_INPUT">
       <value>
-        <option name="FOREGROUND" value="859900" />
+        <option name="FOREGROUND" value="78e0b1" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -3390,16 +3393,21 @@
         <option name="FOREGROUND" value="f4cd59" />
       </value>
     </option>
+    <option name="TS.INSTANCE_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="93a1a1" />
+      </value>
+    </option>
     <option name="TS.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="313747" />
+        <option name="FOREGROUND" value="bbbfb2" />
         <option name="BACKGROUND" value="f6f6f7" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="TS.LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="f6f6f7" />
+        <option name="FOREGROUND" value="e8e8e9" />
       </value>
     </option>
     <option name="TS.STATIC_MEMBER_VARIABLE">
