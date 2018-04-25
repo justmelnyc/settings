@@ -4,7 +4,7 @@
     <property name="created">2018-04-16T11:49:24</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.3.5.0.0</property>
-    <property name="modified">2018-04-16T18:29:11</property>
+    <property name="modified">2018-04-25T15:18:33</property>
     <property name="originalScheme">Solarized Light (Darcula)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -1466,8 +1466,9 @@
     </option>
     <option name="JS.BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JS.DECORATOR">
@@ -1477,8 +1478,9 @@
     </option>
     <option name="JS.DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="586e75" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JS.DOC_MARKUP">
@@ -1526,8 +1528,9 @@
     </option>
     <option name="JS.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE">
@@ -3407,8 +3410,8 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="586e75" />
-        <option name="BACKGROUND" value="f6f6ef" />
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="cfd4c6" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -3429,6 +3432,13 @@
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
+    <option name="TS.BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="TS.DECORATOR">
       <value>
         <option name="FOREGROUND" value="3ccdc4" />
@@ -3442,7 +3452,7 @@
     </option>
     <option name="TS.GLOBAL_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="8aa0a7" />
+        <option name="FOREGROUND" value="252b2d" />
       </value>
     </option>
     <option name="TS.GLOBAL_VARIABLE">
