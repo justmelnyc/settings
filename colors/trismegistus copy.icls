@@ -4,7 +4,7 @@
     <property name="created">2018-04-26T16:29:32</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.3.5.0.0</property>
-    <property name="modified">2018-04-26T16:34:46</property>
+    <property name="modified">2018-04-26T16:50:19</property>
     <property name="originalScheme">trismegistus</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -661,7 +661,7 @@
     </option>
     <option name="JS.LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="fdf6e3" />
+        <option name="FOREGROUND" value="252b2d" />
       </value>
     </option>
     <option name="JS.PARAMETER">
@@ -821,7 +821,7 @@
     </option>
     <option name="TS.INSTANCE_MEMBER_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="da3b60" />
+        <option name="FOREGROUND" value="dd8c33" />
       </value>
     </option>
     <option name="TS.INTERFACE">
@@ -836,7 +836,7 @@
     </option>
     <option name="TS.NUMBER">
       <value>
-        <option name="FOREGROUND" value="b6a053" />
+        <option name="FOREGROUND" value="f4cd59" />
       </value>
     </option>
     <option name="TS.PARAMETER">
