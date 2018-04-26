@@ -4,7 +4,7 @@
     <property name="created">2018-04-26T16:29:32</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.3.5.0.0</property>
-    <property name="modified">2018-04-26T16:31:16</property>
+    <property name="modified">2018-04-26T16:34:46</property>
     <property name="originalScheme">trismegistus</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -34,9 +34,9 @@
     <option name="FILESTATUS_addedOutside" value="629755" />
     <option name="FILESTATUS_changelistConflict" value="d5756c" />
     <option name="FILESTATUS_modifiedOutside" value="6897bb" />
-    <option name="GUTTER_BACKGROUND" value="2b303b" />
+    <option name="GUTTER_BACKGROUND" value="ecf4f4" />
     <option name="INDENT_GUIDE" value="4f5b66" />
-    <option name="LINE_NUMBERS_COLOR" value="eff1f5" />
+    <option name="LINE_NUMBERS_COLOR" value="2b303b" />
     <option name="METHOD_SEPARATORS_COLOR" value="343d46" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
@@ -651,7 +651,7 @@
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="fadd79" />
+        <option name="FOREGROUND" value="ec554a" />
       </value>
     </option>
     <option name="JS.KEYWORD">
