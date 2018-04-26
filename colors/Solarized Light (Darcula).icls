@@ -2,8 +2,9 @@
   <option name="FONT_SCALE" value="1.0" />
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="18" />
-  <option name="EDITOR_FONT_NAME" value="Consolas" />
+  <option name="EDITOR_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="baeeba" />
     <option name="ANNOTATIONS_COLOR" value="586e75" />
@@ -1487,7 +1488,7 @@
     </option>
     <option name="JS.GLOBAL_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="b58900" />
+        <option name="FOREGROUND" value="ff8647" />
       </value>
     </option>
     <option name="JS.GLOBAL_VARIABLE">
@@ -1560,12 +1561,22 @@
     </option>
     <option name="JS.STRING">
       <value>
-        <option name="FOREGROUND" value="2aa198" />
+        <option name="FOREGROUND" value="78e0b1" />
       </value>
     </option>
     <option name="JS.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="dc322f" />
+      </value>
+    </option>
+    <option name="JSON.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="ff8647" />
+      </value>
+    </option>
+    <option name="JSON.STRING">
+      <value>
+        <option name="FOREGROUND" value="78e0b1" />
       </value>
     </option>
     <option name="JSP_ATTRIBUTE_NAME">
