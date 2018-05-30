@@ -4,7 +4,7 @@
     <property name="created">2018-05-30T16:39:15</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.3.5.0.0</property>
-    <property name="modified">2018-05-30T16:49:42</property>
+    <property name="modified">2018-05-30T17:21:11</property>
     <property name="originalScheme">trismegistus copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -34,9 +34,9 @@
     <option name="FILESTATUS_addedOutside" value="629755" />
     <option name="FILESTATUS_changelistConflict" value="d5756c" />
     <option name="FILESTATUS_modifiedOutside" value="6897bb" />
-    <option name="GUTTER_BACKGROUND" value="ecf4f4" />
+    <option name="GUTTER_BACKGROUND" value="292c35" />
     <option name="INDENT_GUIDE" value="4f5b66" />
-    <option name="LINE_NUMBERS_COLOR" value="2b303b" />
+    <option name="LINE_NUMBERS_COLOR" value="7f7f7f" />
     <option name="METHOD_SEPARATORS_COLOR" value="343d46" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
