@@ -4,7 +4,7 @@
     <property name="created">2018-05-30T16:39:15</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.3.5.0.0</property>
-    <property name="modified">2018-05-30T17:21:11</property>
+    <property name="modified">2018-05-31T17:23:35</property>
     <property name="originalScheme">trismegistus copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -667,6 +667,11 @@
     <option name="JS.LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="f6f6f7" />
+      </value>
+    </option>
+    <option name="JS.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="e6a8ac" />
       </value>
     </option>
     <option name="JS.PARAMETER">
