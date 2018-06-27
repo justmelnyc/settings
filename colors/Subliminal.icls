@@ -4,7 +4,7 @@
     <property name="created">2018-05-30T16:39:15</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.3.5.0.0</property>
-    <property name="modified">2018-06-26T18:30:56</property>
+    <property name="modified">2018-06-27T10:51:52</property>
     <property name="originalScheme">trismegistus copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -401,9 +401,10 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="b2b2b2" />
+        <option name="FOREGROUND" value="101420" />
+        <option name="BACKGROUND" value="ffffff" />
         <option name="EFFECT_COLOR" value="b2b2b2" />
-        <option name="EFFECT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -643,6 +644,14 @@
     <option name="INTERFACE_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ebcb8b" />
+      </value>
+    </option>
+    <option name="JS.BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="101420" />
+        <option name="BACKGROUND" value="ffffff" />
+        <option name="EFFECT_COLOR" value="b2b2b2" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="JS.CLASS">
@@ -3347,10 +3356,11 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.HEADER_TEXT_COMMENT">
       <value>
-        <option name="FOREGROUND" value="b2b2b2" />
+        <option name="FOREGROUND" value="101420" />
+        <option name="BACKGROUND" value="ffffff" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="b2b2b2" />
-        <option name="EFFECT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.HEADER_TEXT_EMOJI_ID">
@@ -13330,10 +13340,10 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CEVEN_COMMENT">
       <value>
-        <option name="FOREGROUND" value="b2b2b2" />
-        <option name="BACKGROUND" value="e2ffe0" />
+        <option name="FOREGROUND" value="101420" />
+        <option name="BACKGROUND" value="e3ffe2" />
         <option name="EFFECT_COLOR" value="b2b2b2" />
-        <option name="EFFECT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CEVEN_EMOJI_ID">
@@ -19530,10 +19540,10 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CODD_COMMENT">
       <value>
-        <option name="FOREGROUND" value="b2b2b2" />
-        <option name="BACKGROUND" value="e0fff9" />
+        <option name="FOREGROUND" value="101420" />
+        <option name="BACKGROUND" value="e2fff9" />
         <option name="EFFECT_COLOR" value="b2b2b2" />
-        <option name="EFFECT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CODD_EMOJI_ID">
@@ -25730,10 +25740,10 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CEVEN_COMMENT">
       <value>
-        <option name="FOREGROUND" value="b2b2b2" />
-        <option name="BACKGROUND" value="fff8e6" />
+        <option name="FOREGROUND" value="101420" />
+        <option name="BACKGROUND" value="fff8e7" />
         <option name="EFFECT_COLOR" value="b2b2b2" />
-        <option name="EFFECT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CEVEN_EMOJI_ID">
@@ -31862,9 +31872,10 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CODD_COMMENT">
       <value>
-        <option name="FOREGROUND" value="b2b2b2" />
+        <option name="FOREGROUND" value="101420" />
+        <option name="BACKGROUND" value="ffffff" />
         <option name="EFFECT_COLOR" value="b2b2b2" />
-        <option name="EFFECT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CODD_EMOJI_ID">
@@ -37791,10 +37802,10 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_REVEN_CEVEN_COMMENT">
       <value>
-        <option name="FOREGROUND" value="b2b2b2" />
-        <option name="BACKGROUND" value="d8f0d5" />
+        <option name="FOREGROUND" value="101420" />
+        <option name="BACKGROUND" value="daf1d7" />
         <option name="EFFECT_COLOR" value="b2b2b2" />
-        <option name="EFFECT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_REVEN_CEVEN_EMOJI_ID">
@@ -43991,10 +44002,10 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_REVEN_CODD_COMMENT">
       <value>
-        <option name="FOREGROUND" value="b2b2b2" />
-        <option name="BACKGROUND" value="d7f5ee" />
+        <option name="FOREGROUND" value="101420" />
+        <option name="BACKGROUND" value="d9f6ef" />
         <option name="EFFECT_COLOR" value="b2b2b2" />
-        <option name="EFFECT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_REVEN_CODD_EMOJI_ID">
@@ -50191,10 +50202,10 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CEVEN_COMMENT">
       <value>
-        <option name="FOREGROUND" value="b2b2b2" />
-        <option name="BACKGROUND" value="f5efdf" />
+        <option name="FOREGROUND" value="101420" />
+        <option name="BACKGROUND" value="f6f0e1" />
         <option name="EFFECT_COLOR" value="b2b2b2" />
-        <option name="EFFECT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CEVEN_EMOJI_ID">
@@ -56391,10 +56402,10 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CODD_COMMENT">
       <value>
-        <option name="FOREGROUND" value="b2b2b2" />
-        <option name="BACKGROUND" value="f5f5f5" />
+        <option name="FOREGROUND" value="101420" />
+        <option name="BACKGROUND" value="f6f6f6" />
         <option name="EFFECT_COLOR" value="b2b2b2" />
-        <option name="EFFECT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CODD_EMOJI_ID">
