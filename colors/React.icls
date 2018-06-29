@@ -4,7 +4,7 @@
     <property name="created">2017-06-29T21:41:51</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2018-06-29T10:36:14</property>
+    <property name="modified">2018-06-29T11:14:16</property>
     <property name="originalScheme">Futura copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -59922,8 +59922,8 @@
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="da3b60" />
+        <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="OC.BADCHARACTER">
@@ -61442,8 +61442,8 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="ffcce5" />
-        <option name="ERROR_STRIPE_COLOR" value="ff82ce" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="78e0b1" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
