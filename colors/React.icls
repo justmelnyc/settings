@@ -4,7 +4,7 @@
     <property name="created">2017-06-29T21:41:51</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2018-06-28T01:47:51</property>
+    <property name="modified">2018-06-29T10:36:14</property>
     <property name="originalScheme">Futura copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -1012,8 +1012,8 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
-        <option name="ERROR_STRIPE_COLOR" value="dc322f" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="c90000" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1275,8 +1275,8 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="ccccff" />
-        <option name="ERROR_STRIPE_COLOR" value="96ccff" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="2d39cf" />
       </value>
     </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
@@ -1284,8 +1284,8 @@
     </option>
     <option name="INFO_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="b58900" />
-        <option name="ERROR_STRIPE_COLOR" value="b58900" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="ff8647" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -1477,11 +1477,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JS.DECORATOR">
-      <value>
-        <option name="FOREGROUND" value="ff8647" />
-      </value>
-    </option>
     <option name="JS.DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="586e75" />
@@ -1554,7 +1549,7 @@
     </option>
     <option name="JS.PARAMETER">
       <value>
-        <option name="FOREGROUND" value="ff8647" />
+        <option name="FOREGROUND" value="586e75" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -60799,7 +60794,8 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="ccccff" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="2d39cf" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -61257,9 +61253,8 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="eee8d5" />
-        <option name="BACKGROUND" value="b58900" />
-        <option name="ERROR_STRIPE_COLOR" value="ff00" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="2d39cf" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
@@ -61272,11 +61267,6 @@
       <value>
         <option name="EFFECT_COLOR" value="fc9792" />
         <option name="EFFECT_TYPE" value="4" />
-      </value>
-    </option>
-    <option name="TS.DECORATOR">
-      <value>
-        <option name="FOREGROUND" value="ff8647" />
       </value>
     </option>
     <option name="TS.DOC_TAG">
@@ -61458,7 +61448,8 @@
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="ffcce5" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="2d39cf" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
@@ -61485,7 +61476,7 @@
     </option>
     <option name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="adaeb1" />
+        <option name="FOREGROUND" value="626567" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_VALUE">
@@ -61495,8 +61486,7 @@
     </option>
     <option name="XML_COMMENT">
       <value>
-        <option name="FOREGROUND" value="242424" />
-        <option name="BACKGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="dc322f" />
       </value>
     </option>
     <option name="XML_ENTITY_REFERENCE">
@@ -61509,12 +61499,12 @@
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="495f70" />
+        <option name="FOREGROUND" value="3279b6" />
       </value>
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="495f70" />
+        <option name="FOREGROUND" value="3279b6" />
       </value>
     </option>
     <option name="XPATH.FUNCTION">
