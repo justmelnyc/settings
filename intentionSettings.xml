@@ -1,0 +1,5 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Flow JS/Specify variable type explicitly" />
+  </component>
+</application>
