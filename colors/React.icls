@@ -4,7 +4,7 @@
     <property name="created">2017-06-29T21:41:51</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2018-07-04T21:18:40</property>
+    <property name="modified">2018-07-06T10:10:39</property>
     <property name="originalScheme">Futura copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -1496,7 +1496,7 @@
     </option>
     <option name="JS.GLOBAL_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="d6b569" />
+        <option name="FOREGROUND" value="d79e7c" />
       </value>
     </option>
     <option name="JS.GLOBAL_VARIABLE">
@@ -1523,7 +1523,7 @@
     </option>
     <option name="JS.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="be5b6d" />
+        <option name="FOREGROUND" value="86b9b4" />
       </value>
     </option>
     <option name="JS.LINE_COMMENT">
