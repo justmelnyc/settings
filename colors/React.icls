@@ -4,7 +4,7 @@
     <property name="created">2017-06-29T21:41:51</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2018-07-06T10:10:39</property>
+    <property name="modified">2018-07-09T11:40:11</property>
     <property name="originalScheme">Futura copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -12,7 +12,6 @@
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_FONT_SIZE" value="18" />
-  <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="baeeba" />
     <option name="ANNOTATIONS_COLOR" value="586e75" />
@@ -61271,7 +61270,7 @@
     </option>
     <option name="TS.DECORATOR">
       <value>
-        <option name="FOREGROUND" value="ff8647" />
+        <option name="FOREGROUND" value="fc9792" />
       </value>
     </option>
     <option name="TS.DOC_TAG">
