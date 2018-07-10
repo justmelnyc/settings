@@ -4,7 +4,7 @@
     <property name="created">2017-06-29T21:41:51</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2018-07-09T13:24:40</property>
+    <property name="modified">2018-07-10T12:07:08</property>
     <property name="originalScheme">Futura copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -1009,9 +1009,9 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="c90000" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="FOREGROUND" value="a4a4a5" />
+        <option name="EFFECT_COLOR" value="c90000" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
@@ -59919,8 +59919,9 @@
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="da3b60" />
+        <option name="FOREGROUND" value="5c5d5f" />
         <option name="BACKGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="OC.BADCHARACTER">
