@@ -9,7 +9,7 @@
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
   </component>
-  <component name="LiveEditOptions" chromeUpdateApp="true" />
+  <component name="LiveEditOptions" useJBChromeExtension="true" />
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
   </component>
