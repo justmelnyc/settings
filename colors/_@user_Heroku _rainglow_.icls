@@ -4,7 +4,7 @@
     <property name="created">2018-12-29T12:51:54</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2019-01-17T14:55:01</property>
+    <property name="modified">2019-01-19T21:47:21</property>
     <property name="originalScheme">Heroku (rainglow)</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
@@ -69241,7 +69241,7 @@
     </option>
     <option name="SASS_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="9cabf" />
+        <option name="FOREGROUND" value="fd2c1d" />
       </value>
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
