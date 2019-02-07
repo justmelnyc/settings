@@ -4,7 +4,7 @@
     <property name="created">2019-02-07T11:31:15</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2019-02-07T13:26:06</property>
+    <property name="modified">2019-02-07T16:07:51</property>
     <property name="originalScheme">FK</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
@@ -61345,7 +61345,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="9da5aa" />
         <option name="BACKGROUND" value="60f12" />
       </value>
     </option>
