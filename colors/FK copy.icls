@@ -4,7 +4,7 @@
     <property name="created">2019-02-07T11:31:15</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2019-02-08T13:45:10</property>
+    <property name="modified">2019-02-08T16:34:47</property>
     <property name="originalScheme">FK</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
@@ -61599,7 +61599,7 @@
     </option>
     <option name="XML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="86b9b4" />
+        <option name="FOREGROUND" value="42daa6" />
       </value>
     </option>
     <option name="XML_COMMENT">
