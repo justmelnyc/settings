@@ -4,7 +4,7 @@
     <property name="created">2019-05-17T16:59:01</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.1.2.0.0</property>
-    <property name="modified">2019-06-14T15:04:44</property>
+    <property name="modified">2019-06-17T10:08:20</property>
     <property name="originalScheme">Otakon Contrast (rainglow)</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
@@ -1076,6 +1076,16 @@
     <option name="GO_TYPE_SPECIFICATION">
       <value>
         <option name="FOREGROUND" value="f0b9d4" />
+      </value>
+    </option>
+    <option name="GRAPHQL_FRAGMENT_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="f8cec6" />
+      </value>
+    </option>
+    <option name="GRAPHQL_OPERATION_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="f8cec6" />
       </value>
     </option>
     <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
