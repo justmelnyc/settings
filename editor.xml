@@ -9,9 +9,6 @@
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
   </component>
   <component name="LiveEditOptions" useJBChromeExtension="true" />
-  <component name="TodoConfiguration">
-    <pattern pattern="\b(todo|fixme)\b.*" />
-  </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
   </component>
