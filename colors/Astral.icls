@@ -4,7 +4,7 @@
     <property name="created">2019-08-12T11:23:36</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.2.0.0</property>
-    <property name="modified">2019-11-04T01:20:29</property>
+    <property name="modified">2019-11-04T23:39:36</property>
     <property name="originalScheme">Astral</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -17,6 +17,9 @@
     <option name="CARET_COLOR" value="78e0b1" />
     <option name="CARET_ROW_COLOR" value="" />
     <option name="CONSOLE_BACKGROUND_KEY" value="" />
+    <option name="FILESTATUS_ADDED" value="79ffe1" />
+    <option name="FILESTATUS_MODIFIED" value="3291ff" />
+    <option name="FILESTATUS_RENAMED" value="f7b955" />
     <option name="GUTTER_BACKGROUND" value="111320" />
     <option name="INDENT_GUIDE" value="eee8d5" />
     <option name="LINE_NUMBERS_COLOR" value="868b8b" />
