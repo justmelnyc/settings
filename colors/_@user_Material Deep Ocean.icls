@@ -4,7 +4,7 @@
     <property name="created">2019-09-13T14:51:14</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.2.2.0.0</property>
-    <property name="modified">2019-10-27T12:02:04</property>
+    <property name="modified">2019-11-07T09:34:18</property>
     <property name="originalScheme">Material Deep Ocean</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -34,9 +34,12 @@
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
     <option name="DOCUMENTATION_COLOR" value="f111a" />
+    <option name="FILESTATUS_ADDED" value="79ffe1" />
     <option name="FILESTATUS_HIJACKED" value="" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="c3e88d" />
     <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="4b526d" />
+    <option name="FILESTATUS_MODIFIED" value="3291ff" />
+    <option name="FILESTATUS_RENAMED" value="f7b955" />
     <option name="FILESTATUS_SUPPRESSED" value="" />
     <option name="FILESTATUS_SWITCHED" value="" />
     <option name="GUTTER_BACKGROUND" value="f111a" />
