@@ -4,7 +4,7 @@
     <property name="created">2019-08-12T11:23:36</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.2.0.0</property>
-    <property name="modified">2019-11-07T09:34:17</property>
+    <property name="modified">2019-11-09T00:01:54</property>
     <property name="originalScheme">Astral</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -1537,6 +1537,16 @@
       <value>
         <option name="FOREGROUND" value="f0917c" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JS.EXPORTED.FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="6469b6" />
+      </value>
+    </option>
+    <option name="JS.EXPORTED.VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="be5b6d" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION">
@@ -61577,6 +61587,11 @@
     <option name="SASS_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="b58900" />
+      </value>
+    </option>
+    <option name="SASS_COLOR">
+      <value>
+        <option name="FOREGROUND" value="d6b569" />
       </value>
     </option>
     <option name="SASS_COMMENT">
