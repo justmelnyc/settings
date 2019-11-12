@@ -4,7 +4,7 @@
     <property name="created">2019-08-12T11:23:36</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.2.0.0</property>
-    <property name="modified">2019-11-09T00:17:53</property>
+    <property name="modified">2019-11-11T19:59:48</property>
     <property name="originalScheme">Astral</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -1614,7 +1614,7 @@
     </option>
     <option name="JS.PARAMETER">
       <value>
-        <option name="FOREGROUND" value="586e75" />
+        <option name="FOREGROUND" value="f0917c" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -62410,7 +62410,7 @@
     </option>
     <option name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="5a5c6e" />
+        <option name="FOREGROUND" value="9d9a8f" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_VALUE">
@@ -62433,12 +62433,12 @@
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="4d6067" />
+        <option name="FOREGROUND" value="5a5c6e" />
       </value>
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="4d6067" />
+        <option name="FOREGROUND" value="5a5c6e" />
       </value>
     </option>
     <option name="XPATH.FUNCTION">
