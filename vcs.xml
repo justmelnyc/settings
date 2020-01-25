@@ -26,8 +26,12 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="justmelnyc" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Shopify/product-reviews-polaris-example.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Dropbox/—Framework/apps" />
+    <option name="cloneParentDir" value="$USER_HOME$" />
   </component>
 </application>
