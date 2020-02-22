@@ -4,12 +4,18 @@
     <property name="created">2019-08-12T11:23:36</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.2.0.0</property>
-    <property name="modified">2019-12-06T13:05:27</property>
+    <property name="modified">2020-02-22T09:59:53</property>
     <property name="originalScheme">Astral</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
-  <option name="EDITOR_FONT_SIZE" value="15" />
-  <option name="EDITOR_FONT_NAME" value="IBM Plex Mono" />
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Victor Mono" />
+    <option name="EDITOR_FONT_SIZE" value="15" />
+  </font>
+  <font>
+    <option name="EDITOR_FONT_NAME" value="IBM Plex Mono" />
+    <option name="EDITOR_FONT_SIZE" value="15" />
+  </font>
   <colors>
     <option name="ADDED_LINES_COLOR" value="baeeba" />
     <option name="ANNOTATIONS_COLOR" value="586e75" />
