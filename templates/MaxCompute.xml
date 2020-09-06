@@ -1,0 +1,298 @@
+<templateSet group="MaxCompute">
+  <template name="ct" value="CREATE TABLE $if_exist$ $table$ (&#10; $col_name$ $col_type$ COMMENT '$col_comment$'&#10;)&#10;COMMENT '$table_comment$'&#10;PARTITIONED BY ($part_col$ $part_type$ COMMENT '$part_comment$')&#10;$cluster_type$ BY ($cluster_col$) SORTED BY ($sort_col$) INTO $bucketNum$ BUCKETS&#10;STORED AS $storedAs$&#10;TBLPROPERTIES(&quot;compressionstrategy&quot;=&quot;$compressionStrategy$&quot;)&#10;LIFECYCLE $lifecycle$;$END$" description="create table" toReformat="false" toShortenFQNames="false">
+    <variable name="if_exist" expression="" defaultValue="&quot;IF NOT EXISTS&quot;" alwaysStopAt="false" />
+    <variable name="table" expression="" defaultValue="&quot;new_table&quot;" alwaysStopAt="true" />
+    <variable name="col_name" expression="" defaultValue="&quot;col&quot;" alwaysStopAt="true" />
+    <variable name="col_type" expression="" defaultValue="&quot;BIGINT&quot;" alwaysStopAt="true" />
+    <variable name="col_comment" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="table_comment" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="part_col" expression="" defaultValue="&quot;part_col&quot;" alwaysStopAt="true" />
+    <variable name="part_type" expression="" defaultValue="&quot;STRING&quot;" alwaysStopAt="true" />
+    <variable name="part_comment" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="cluster_type" expression="enum(&quot;CLUSTERED&quot;,&quot;RANGE CLUSTERED&quot;)" defaultValue="&quot;CLUSTERED&quot;" alwaysStopAt="true" />
+    <variable name="cluster_col" expression="" defaultValue="&quot;col&quot;" alwaysStopAt="true" />
+    <variable name="sort_col" expression="" defaultValue="&quot;col&quot;" alwaysStopAt="true" />
+    <variable name="bucketNum" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="storedAs" expression="enum(&quot;AliOrc&quot;,&quot;CFile2&quot;)" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="compressionStrategy" expression="enum(&quot;normal&quot;,&quot;high&quot;,&quot;extreme&quot;)" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="lifecycle" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="cet" value="$set$&#10;CREATE EXTERNAL TABLE $if_exist$ $table$ (&#10; $col_name$ $col_type$ COMMENT '$col_comment$'&#10;)&#10;COMMENT '$table_comment$'&#10;PARTITIONED BY ($part_col$ $part_type$)&#10;STORED BY '$stored$'&#10;WITH SERDEPROPERTIES('$serKey$'='$serValue$')&#10;LOCATION '$location$'&#10;USING '$resources$';$END$" description="create external table" toReformat="false" toShortenFQNames="false">
+    <variable name="set" expression="" defaultValue="&quot;SET odps.service.mode=off;&quot;" alwaysStopAt="false" />
+    <variable name="if_exist" expression="" defaultValue="&quot;IF NOT EXISTS&quot;" alwaysStopAt="false" />
+    <variable name="table" expression="" defaultValue="&quot;new_external_table&quot;" alwaysStopAt="true" />
+    <variable name="col_name" expression="" defaultValue="&quot;col&quot;" alwaysStopAt="true" />
+    <variable name="col_type" expression="" defaultValue="&quot;BIGINT&quot;" alwaysStopAt="true" />
+    <variable name="col_comment" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="table_comment" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="part_col" expression="" defaultValue="&quot;part_col&quot;" alwaysStopAt="true" />
+    <variable name="part_type" expression="" defaultValue="&quot;STRING&quot;" alwaysStopAt="true" />
+    <variable name="stored" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="serKey" expression="" defaultValue="&quot;odps.properties.rolearn&quot;" alwaysStopAt="true" />
+    <variable name="serValue" expression="" defaultValue="&quot;acs:ram::xxxxx:role/aliyunodpsdefaultrole&quot;" alwaysStopAt="true" />
+    <variable name="properties" expression="" defaultValue="&quot;''=''&quot;" alwaysStopAt="true" />
+    <variable name="location" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="resources" expression="" defaultValue="&quot;?.jar&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="cts" value="CREATE TABLE $if_exist$ $table$ AS SELECT $col_name$ FROM $exist_table$;$END$" description="create table as select" toReformat="false" toShortenFQNames="false">
+    <variable name="if_exist" expression="" defaultValue="&quot;IF NOT EXISTS&quot;" alwaysStopAt="false" />
+    <variable name="table" expression="" defaultValue="&quot;new_table&quot;" alwaysStopAt="true" />
+    <variable name="col_name" expression="" defaultValue="&quot;*&quot;" alwaysStopAt="false" />
+    <variable name="exist_table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ctl" value="CREATE TABLE $if_exist$ $table$ LIKE $exist_table$;$END$" description="create table like" toReformat="false" toShortenFQNames="false">
+    <variable name="if_exist" expression="" defaultValue="&quot;IF NOT EXISTS&quot;" alwaysStopAt="false" />
+    <variable name="table" expression="" defaultValue="&quot;new_table&quot;" alwaysStopAt="true" />
+    <variable name="exist_table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="dt" value="DROP TABLE $if_exist$ $table$ $purge$;$END$" description="drop table" toReformat="false" toShortenFQNames="false">
+    <variable name="if_exist" expression="" defaultValue="&quot;IF EXISTS&quot;" alwaysStopAt="false" />
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="purge" expression="" defaultValue="&quot;PURGE&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="tt" value="TRUNCATE TABLE $table$;$END$" description="truncate table" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="pt" value="PURGE TABLE $table$$END$;" description="purge table" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="atr" value="ALTER TABLE $table$ RENAME TO $new_table$;$END$" description="alter table rename to" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="new_table" expression="" defaultValue="&quot;new_table&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="atsc" value="ALTER TABLE $table$ SET COMMENT '$comment$';$END$" description="alter table set comment" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="comment" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="atsl" value="ALTER TABLE $table$ SET LIFECYCLE $lifecycle$;$END$" description="alter table set lifecycle" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="lifecycle" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="atl" value="ALTER TABLE $table$ PARTITION($partition$) $enable_disable$ LIFECYCLE;$END$" description="alter table enable | disable lifecycle" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="partition" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="enable_disable" expression="" defaultValue="&quot;ENABLE&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="att" value="ALTER TABLE $table$ TOUCH PARTITION($partition$);$END$" description="alter table LastDataModifiedTime" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="partition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ata" value="ALTER TABLE $table$ PARTITION($partition$) ARCHIVE;$END$" description="alter table archive" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="partition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="atac" value="ALTER TABLE $table$ ADD COLUMNS ($col_name$ $col_type$);$END$" description="alter table add columns" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="col_name" expression="" defaultValue="&quot;col&quot;" alwaysStopAt="true" />
+    <variable name="col_type" expression="" defaultValue="&quot;BIGINT&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="atcr" value="ALTER TABLE $table$ CHANGE COLUMN $col_name$ RENAME TO $new_col_name$;$END$" description="alter table column rename" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="col_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="new_col_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="atcc" value="ALTER TABLE $table$ CHANGE COLUMN $col_name$ COMMENT '$comment$';$END$" description="alter table column comment" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="col_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="comment" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="alct" value="ALTER TABLE $table$ CHANGEOWNER TO '$owner$';$END$" description="alter table change owner" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="owner" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="atm" value="ALTER TABLE $table$ PARTITION($partition$) MERGE SMALLFILES;$END$" description="alter table merge" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="partition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="atc" value="ALTER TABLE $table$ $cluster_type$ BY ($cluster_col$) SORTED BY ($sort_col$) INTO $bucketNum$ BUCKETS;$END$" description="alter table add hash|range clustering" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="cluster_type" expression="enum(&quot;CLUSTERED&quot;,&quot;RANGE CLUSTERED&quot;)" defaultValue="&quot;CLUSTERED&quot;" alwaysStopAt="true" />
+    <variable name="cluster_col" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="sort_col" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="bucketNum" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="atnc" value="ALTER TABLE $table$ NOT CLUSTERED;$END$" description="alter table remove hash|range clustering" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="atcs" value="ALTER TABLE $table$ SET TBLPROPERTIES(&quot;compressionstrategy&quot;=&quot;$compressionStrategy$&quot;);$END$" description="alter table set compression strategy" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="compressionStrategy" expression="enum(&quot;normal&quot;,&quot;high&quot;,&quot;extreme&quot;)" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="scft" value="SHOW CHANGELOGS FOR TABLE $table$ PARTITION($partition$);$END$" description="show table change logs" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="partition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="utt" value="UNDO TABLE $table$ PARTITION($partition$) TO $change_log$;$END$" description="undo table to change log" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="partition" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="change_log" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="det" value="DESC $table$ PARTITION($partition$);$END$" description="desc table" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="partition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="st" value="SHOW TABLES;$END$" description="show all tables" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="sp" value="SHOW PARTITIONS $table$;$END$" description="show partitions" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="atap" value="ALTER TABLE $table$ ADD $if_exist$ PARTITION ($part_col$=$part_value$);$END$" description="alter table add partition" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="if_exist" expression="" defaultValue="&quot;IF NOT EXISTS&quot;" alwaysStopAt="false" />
+    <variable name="part_col" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="part_value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="atdp" value="ALTER TABLE $table$ DROP $if_exist$ PARTITION ($part_col$=$part_value$) $purge$;$END$" description="alter table drop partition" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="if_exist" expression="" defaultValue="&quot;IF EXISTS&quot;" alwaysStopAt="false" />
+    <variable name="part_col" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="part_value" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="purge" expression="" defaultValue="&quot;PURGE&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="atpr" value="ALTER TABLE $table$ PARTITION ($part_col$=$part_value$) RENAME TO PARTITION ($new_part_col$=$new_part_value$);$END$" description="alter table rename partition" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="part_col" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="part_value" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="new_part_col" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="new_part_value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="cv" value="CREATE $replace$ VIEW $if_exist$ $view$(&#10; $v_col$&#10;) COMMENT '$comment$'&#10;AS SELECT $t_col$ FROM $table$;$END$" description="create view" toReformat="false" toShortenFQNames="false">
+    <variable name="replace" expression="" defaultValue="&quot;OR REPLACE&quot;" alwaysStopAt="false" />
+    <variable name="if_exist" expression="" defaultValue="&quot;IF NOT EXISTS&quot;" alwaysStopAt="false" />
+    <variable name="view" expression="" defaultValue="&quot;new_view&quot;" alwaysStopAt="true" />
+    <variable name="v_col" expression="" defaultValue="&quot;col&quot;" alwaysStopAt="true" />
+    <variable name="comment" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="t_col" expression="" defaultValue="&quot;*&quot;" alwaysStopAt="false" />
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="dv" value="DROP VIEW $if_exist$ $view$;$END$" description="drop view" toReformat="false" toShortenFQNames="false">
+    <variable name="if_exist" expression="" defaultValue="&quot;IF EXISTS&quot;" alwaysStopAt="false" />
+    <variable name="view" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="av" value="ALTER VIEW $view$ RENAME TO $new_view$;$END$" description="alter view rename" toReformat="false" toShortenFQNames="false">
+    <variable name="view" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="new_view" expression="" defaultValue="&quot;new_view_name&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="it" value="INSERT $overwrite_into$ TABLE $table$ PARTITION($partition$)&#10;SELECT $col$ FROM $exist_table$;$END$" description="insert table" toReformat="false" toShortenFQNames="false">
+    <variable name="overwrite_into" expression="" defaultValue="&quot;INTO&quot;" alwaysStopAt="true" />
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="partition" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="col" expression="" defaultValue="&quot;*&quot;" alwaysStopAt="true" />
+    <variable name="exist_table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="mit" value="FROM $exist_table$&#10;INSERT $overwrite_into1$ TABLE $table1$ PARTITION($partition1$)&#10;SELECT $col1$&#10;INSERT $overwrite_into2$ TABLE $table2$ PARTITION($partition2$)&#10;SELECT $col2$;$END$" description="multi insert table" toReformat="false" toShortenFQNames="false">
+    <variable name="exist_table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="overwrite_into1" expression="" defaultValue="&quot;INTO&quot;" alwaysStopAt="true" />
+    <variable name="table1" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="partition1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="col1" expression="" defaultValue="&quot;*&quot;" alwaysStopAt="true" />
+    <variable name="overwrite_into2" expression="" defaultValue="&quot;INTO&quot;" alwaysStopAt="true" />
+    <variable name="table2" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="partition2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="col2" expression="" defaultValue="&quot;*&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="itdp" value="INSERT OVERWRITE TABLE $table$ PARTITION($partition$) SELECT $col$ FROM $exist_table$;$END$" description="insert table dynamic partition" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="partition" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="col" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exist_table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="itv" value="INSERT $overwrite_into$ TABLE $table$ PARTITION($partition$)&#10;VALUES($value$);$END$" description="insert table values" toReformat="false" toShortenFQNames="false">
+    <variable name="overwrite_into" expression="" defaultValue="&quot;INTO&quot;" alwaysStopAt="false" />
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="partition" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="sf" value="SELECT $col$ &#10;FROM $table$&#10;WHERE $where$;$END$" description="select from table" toReformat="false" toShortenFQNames="false">
+    <variable name="col" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="where" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="str" value="SELECT TRANSFORM ($col$) &#10;USING '$command$' RESOURCES '$resource$'&#10;AS $colAlias$&#10;FROM $table$;$END$" description="select transform" toReformat="false" toShortenFQNames="false">
+    <variable name="col" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="command" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="resource" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="colAlias" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="lv" value="LATERAL VIEW $udtf$ $table_alias$ AS $column_alias$ $END$" description="lateral view" toReformat="false" toShortenFQNames="false">
+    <variable name="udtf" expression="" defaultValue="&quot;()&quot;" alwaysStopAt="true" />
+    <variable name="table_alias" expression="" defaultValue="&quot;table_alias&quot;" alwaysStopAt="true" />
+    <variable name="column_alias" expression="" defaultValue="&quot;column_alias_list&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="mj" value=" /*+ mapjoin($table$) */ $END$" description="map join hint" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="wa" value="WITH $cte_name$ AS ($cte_query$)$END$" description="with as, common table expression" toReformat="false" toShortenFQNames="false">
+    <variable name="cte_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="cte_query" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="wc" value="WINDOW $window$ AS (partition by $partition$ order by $order$)$END$" description="predefined window statement clause" toReformat="false" toShortenFQNames="false">
+    <variable name="window" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="partition" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="order" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="cbj" value="SELECT $sql_func_name$('ABC');&#10;#CODE ('lang'='JAVA')&#10;package $package$;&#10;import java.lang.String;&#10;&#10;public class $class_name$ {&#10;  public static String $method_name$(String input) {&#10;    return input == null ? null : input.toLowerCase();&#10;  }&#10;}&#10;#END CODE;$END$" description="Code Block for Java UDT" toReformat="false" toShortenFQNames="true">
+    <variable name="package" expression="" defaultValue="&quot;com.mypackage&quot;" alwaysStopAt="true" />
+    <variable name="class_name" expression="" defaultValue="&quot;MyClassName&quot;" alwaysStopAt="true" />
+    <variable name="method_name" expression="" defaultValue="&quot;test&quot;" alwaysStopAt="true" />
+    <variable name="sql_func_name" expression="concat(package,&quot;.&quot;,class_name,&quot;.&quot;,method_name)" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="cbpf" value="CREATE TEMPORARY FUNCTION $func_name$  AS '$func_class_name$' USING&#10;#CODE ('lang'='PYTHON', 'filename'='$file_name$')&#10;from odps.udf import annotate&#10;@annotate(&quot;bigint-&gt;bigint&quot;)&#10;class $class_name$(object):&#10;  def evaluate(self, a):&#10;    return a&#10;#END CODE;" description="Code Block for Python UDF" toReformat="false" toShortenFQNames="true">
+    <variable name="func_name" expression="" defaultValue="&quot;foo&quot;" alwaysStopAt="true" />
+    <variable name="file_name" expression="" defaultValue="&quot;embedded&quot;" alwaysStopAt="true" />
+    <variable name="class_name" expression="" defaultValue="&quot;MyClass&quot;" alwaysStopAt="true" />
+    <variable name="func_class_name" expression="concat(file_name,&quot;.&quot;,class_name)" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="cbjt" value="CREATE TEMPORARY FUNCTION $func_name$ AS '$func_class_name$' USING&#10;#CODE ('lang'='JAVA')&#10;package $package$;&#10;&#10;import com.aliyun.odps.udf.UDTF;&#10;import com.aliyun.odps.udf.UDFException;&#10;import com.aliyun.odps.udf.annotation.Resolve;&#10;&#10;@Resolve({&quot;string,string-&gt;string,string&quot;})&#10;public class $class_name$ extends UDTF {&#10;  @Override&#10;  public void process(Object[] args) throws UDFException {&#10;    String k = (String) args[0];&#10;    String v = (String) args[0];&#10;    forward(k, v);&#10;  }&#10;}&#10;#END CODE;" description="Code Block for Java UDTF" toReformat="false" toShortenFQNames="true">
+    <variable name="func_name" expression="" defaultValue="&quot;foo&quot;" alwaysStopAt="true" />
+    <variable name="package" expression="" defaultValue="&quot;com.mypackage&quot;" alwaysStopAt="true" />
+    <variable name="class_name" expression="" defaultValue="&quot;MyUDTF&quot;" alwaysStopAt="true" />
+    <variable name="func_class_name" expression="concat(package, &quot;.&quot;, class_name)" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+</templateSet>

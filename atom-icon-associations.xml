@@ -1,0 +1,16 @@
+<application>
+  <component name="Atom Icon Associations Config">
+    <option name="customFolderAssociations">
+      <CustomAssociations>
+        <option name="customAssociations">
+          <RegexAssociation>
+            <option name="matcher" value="^(show)$" />
+            <option name="pattern" value="^(show)$" />
+            <option name="name" value="show" />
+            <option name="icon" value="/animations.svg" />
+          </RegexAssociation>
+        </option>
+      </CustomAssociations>
+    </option>
+  </component>
+</application>

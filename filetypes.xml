@@ -1,8 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="*.js.flow" type="Flow" />
-      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern=".jsconfig" type="PLAIN_TEXT" />
+      <mapping pattern=".editoricons" type="PLAIN_TEXT" />
+      <mapping pattern="imndex" type="PLAIN_TEXT" />
       <mapping pattern="ignore" type="Git exclude file" />
     </extensionMap>
   </component>

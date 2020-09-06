@@ -1,14 +1,13 @@
-<scheme name="Heroku (rainglow) copy" version="142" parent_scheme="Darcula">
+<scheme name="Soft Landing" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2019-01-18T18:29:50</property>
+    <property name="created">2020-03-30T20:21:18</property>
     <property name="ide">WebStorm</property>
-    <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2019-01-20T10:55:22</property>
-    <property name="originalScheme">_@user_Heroku (rainglow)</property>
+    <property name="ideVersion">2019.3.4.0.0</property>
+    <property name="modified">2020-04-13T17:56:08</property>
+    <property name="originalScheme">Heroku (rainglow) copy</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
-  <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="CONSOLE_LINE_SPACING" value="1.6" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="a6fa62" />
@@ -39,7 +38,7 @@
     <option name="FILESTATUS_SWITCHED" value="8978f" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
     <option name="FILESTATUS_modifiedOutside" value="585480" />
-    <option name="GUTTER_BACKGROUND" value="9151d" />
+    <option name="GUTTER_BACKGROUND" value="81526" />
     <option name="INDENT_GUIDE" value="262633" />
     <option name="INFORMATION_HINT" value="1b1b24" />
     <option name="LINE_NUMBERS_COLOR" value="3c3c50" />
@@ -509,12 +508,12 @@
     </option>
     <option name="CSS.FUNCTION">
       <value>
-        <option name="FOREGROUND" value="7873ae" />
+        <option name="FOREGROUND" value="2d72eb" />
       </value>
     </option>
     <option name="CSS.HASH">
       <value>
-        <option name="FOREGROUND" value="fcae76" />
+        <option name="FOREGROUND" value="ea3323" />
       </value>
     </option>
     <option name="CSS.IDENT">
@@ -530,18 +529,28 @@
     </option>
     <option name="CSS.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="585480" />
+        <option name="FOREGROUND" value="ffffff" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="CSS.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="7ce0c4" />
+      </value>
+    </option>
+    <option name="CSS.OPERATORS">
+      <value>
+        <option name="FOREGROUND" value="464646" />
       </value>
     </option>
     <option name="CSS.PROPERTY_NAME">
       <value>
-        <option name="FOREGROUND" value="585480" />
+        <option name="FOREGROUND" value="67676a" />
       </value>
     </option>
     <option name="CSS.PROPERTY_VALUE">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="645af8" />
       </value>
     </option>
     <option name="CSS.PSEUDO">
@@ -549,9 +558,19 @@
         <option name="FOREGROUND" value="c8c7d5" />
       </value>
     </option>
+    <option name="CSS.SEMICOLON">
+      <value>
+        <option name="FOREGROUND" value="464646" />
+      </value>
+    </option>
+    <option name="CSS.STRING">
+      <value>
+        <option name="FOREGROUND" value="fccf94" />
+      </value>
+    </option>
     <option name="CSS.TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="c8c7d5" />
+        <option name="FOREGROUND" value="fcae76" />
       </value>
     </option>
     <option name="CSS.UNICODE.RANGE">
@@ -704,7 +723,6 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="585480" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -1079,6 +1097,41 @@
         <option name="FOREGROUND" value="a6fa62" />
       </value>
     </option>
+    <option name="GRAPHQL_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="fccf94" />
+      </value>
+    </option>
+    <option name="GRAPHQL_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="9f9ef8" />
+      </value>
+    </option>
+    <option name="GRAPHQL_DIRECTIVE">
+      <value>
+        <option name="FOREGROUND" value="585480" />
+      </value>
+    </option>
+    <option name="GRAPHQL_FIELD_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="666666" />
+      </value>
+    </option>
+    <option name="GRAPHQL_FIELD_NAME">
+      <value>
+        <option name="FOREGROUND" value="d3e78f" />
+      </value>
+    </option>
+    <option name="GRAPHQL_TYPE_NAME">
+      <value>
+        <option name="FOREGROUND" value="9b9b9b" />
+      </value>
+    </option>
+    <option name="GRAPHQL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="ef908b" />
+      </value>
+    </option>
     <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
     <option name="HAML_TAG">
       <value>
@@ -1307,6 +1360,16 @@
         <option name="FOREGROUND" value="1a1f29" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="d3e78f" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="ef908b" />
+      </value>
+    </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
         <option name="FOREGROUND" value="d3e78f" />
@@ -1314,12 +1377,17 @@
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="c8c7d5" />
+        <option name="FOREGROUND" value="939498" />
       </value>
     </option>
     <option name="JS.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="585480" />
+        <option name="FOREGROUND" value="545767" />
+      </value>
+    </option>
+    <option name="JS.LOCAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="fcc0b8" />
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE">
@@ -1327,9 +1395,34 @@
         <option name="FOREGROUND" value="9da5aa" />
       </value>
     </option>
+    <option name="JS.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ef5350" />
+      </value>
+    </option>
     <option name="JS.PARAMETER">
       <value>
-        <option name="FOREGROUND" value="fadd79" />
+        <option name="FOREGROUND" value="fad6c6" />
+      </value>
+    </option>
+    <option name="JS.STRING">
+      <value>
+        <option name="FOREGROUND" value="e7df92" />
+      </value>
+    </option>
+    <option name="JSON.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ef5350" />
+      </value>
+    </option>
+    <option name="JSON.PROPERTY_KEY">
+      <value>
+        <option name="FOREGROUND" value="545767" />
+      </value>
+    </option>
+    <option name="JSON.STRING">
+      <value>
+        <option name="FOREGROUND" value="e8d298" />
       </value>
     </option>
     <option name="JSP_DIRECTIVE_NAME">
@@ -69584,7 +69677,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="c8c7d5" />
-        <option name="BACKGROUND" value="9151d" />
+        <option name="BACKGROUND" value="81526" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -69680,13 +69773,18 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ff5370" />
+        <option name="FOREGROUND" value="fcae76" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="939498" />
+        <option name="FOREGROUND" value="d5cee6" />
+      </value>
+    </option>
+    <option name="XML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="fcca99" />
       </value>
     </option>
     <option name="XML_ENTITY_REFERENCE">
@@ -69702,18 +69800,18 @@
     <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="585480" />
+        <option name="FOREGROUND" value="d3e78f" />
       </value>
     </option>
     <option name="XML_TAG_DATA">
       <value>
-        <option name="FOREGROUND" value="c8c7d5" />
+        <option name="FOREGROUND" value="dbdae9" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="585480" />
+        <option name="FOREGROUND" value="d3e78f" />
       </value>
     </option>
     <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />

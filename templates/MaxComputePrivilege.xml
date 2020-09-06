@@ -1,0 +1,227 @@
+<templateSet group="MaxComputePrivilege">
+  <template name="lu" value="list users;$END$" description="list users" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="au" value="add user $user$;$END$" description="add user" toReformat="false" toShortenFQNames="false">
+    <variable name="user" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ru" value="remove user $user$;$END$" description="remove user" toReformat="false" toShortenFQNames="false">
+    <variable name="user" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="lr" value="list roles;$END$" description="list roles" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="cr" value="create role $role$;$END$" description="create role" toReformat="false" toShortenFQNames="false">
+    <variable name="role" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="dr" value="drop role $role$;$END$" description="drop role" toReformat="false" toShortenFQNames="false">
+    <variable name="role" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="grtu" value="grant $role$ to $user$;$END$" description="grant role to user" toReformat="false" toShortenFQNames="false">
+    <variable name="role" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="user" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="rrfu" value="revoke $role$ from $user$;$END$" description="revoke role from user" toReformat="false" toShortenFQNames="false">
+    <variable name="role" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="user" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="gptu" value="grant $privileges$ on $objectType$ $objectName$ to $principalType$ $principal$;$END$" description="grant ACL privileges to user|role" toReformat="false" toShortenFQNames="false">
+    <variable name="privileges" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="objectType" expression="complete()" defaultValue="&quot;table&quot;" alwaysStopAt="true" />
+    <variable name="objectName" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="principalType" expression="complete()" defaultValue="&quot;role&quot;" alwaysStopAt="true" />
+    <variable name="principal" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="rpfu" value="revoke $privileges$ on $objectType$ $objectName$ from $principalType$ $principal$;$END$" description="revoke ACL privileges from user|role" toReformat="false" toShortenFQNames="false">
+    <variable name="privileges" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="objectType" expression="complete()" defaultValue="&quot;table&quot;" alwaysStopAt="true" />
+    <variable name="objectName" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="principalType" expression="complete()" defaultValue="&quot;role&quot;" alwaysStopAt="true" />
+    <variable name="principal" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="cer" value="CLEAR EXPIRED GRANTS;$END$" description="clear expired grants" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="gp" value="get policy;$END$" description="get project policy" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="pp" value="put policy $policyFile$;$END$" description="put project policy" toReformat="false" toShortenFQNames="false">
+    <variable name="policyFile" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="grp" value="get policy on role $role$;$END$" description="get role policy" toReformat="false" toShortenFQNames="false">
+    <variable name="role" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="prp" value="put policy $policyFile$ on role $role$;$END$" description="put role policy" toReformat="false" toShortenFQNames="false">
+    <variable name="policyFile" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="role" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="cp" value="create package $package$;$END$" description="create package" toReformat="false" toShortenFQNames="false">
+    <variable name="package" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="dep" value="delete package $package$;$END$" description="delete package" toReformat="false" toShortenFQNames="false">
+    <variable name="package" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="artp" value="add $objectType$ $objectName$ to package $package$;$END$" description="add resource to package" toReformat="false" toShortenFQNames="false">
+    <variable name="objectType" expression="enum(&quot;table&quot;,&quot;function&quot;,&quot;resource&quot;,&quot;instance&quot;)" defaultValue="&quot;table&quot;" alwaysStopAt="true" />
+    <variable name="objectName" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="package" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="rrfp" value="remove $objectType$ $objectName$ from package $package$;$END$" description="remove resource from package" toReformat="false" toShortenFQNames="false">
+    <variable name="objectType" expression="enum(&quot;table&quot;,&quot;function&quot;,&quot;resource&quot;,&quot;instance&quot;)" defaultValue="&quot;table&quot;" alwaysStopAt="true" />
+    <variable name="objectName" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="package" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="apip" value="allow project $project$ to install package $package$ using label $label$;$END$" description="allow project to install package" toReformat="false" toShortenFQNames="false">
+    <variable name="project" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="package" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="dpip" value="disallow project $project$ to install package $package$;$END$" description="disallow project to install package" toReformat="false" toShortenFQNames="false">
+    <variable name="project" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="package" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ip" value="install package $package$;$END$" description="install package" toReformat="false" toShortenFQNames="false">
+    <variable name="package" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="up" value="uninstall package $package$;$END$" description="uninstall package" toReformat="false" toShortenFQNames="false">
+    <variable name="package" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="spkg" value="show packages;$END$" description="show packages" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="dp" value="describe package $package$;$END$" description="describe package" toReformat="false" toShortenFQNames="false">
+    <variable name="package" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="sltu" value="set label $label$ to $principalType$ $principal$;$END$" description="set label [0-9] to user|role" toReformat="false" toShortenFQNames="false">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="principalType" expression="enum(&quot;role&quot;,&quot;user&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="principal" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="slto" value="set label $label$ to table $table$;$END$" description="set label [0-9] to table" toReformat="false" toShortenFQNames="false">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="gltp" value="grant label $label$ on table $table$ to $principalType$ $principal$ WITH EXP $days$;$END$" description="grant label on table to user|role" toReformat="false" toShortenFQNames="false">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="principalType" expression="enum(&quot;role&quot;,&quot;user&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="principal" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="days" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="rlfp" value="revoke label on table $table$ from $principalType$ $principal$;$END$" description="revoke label on table from user|role" toReformat="false" toShortenFQNames="false">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="principalType" expression="enum(&quot;role&quot;,&quot;user&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="principal" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="slfp" value="show label $label$ grants for $principalType$ $principal$;$END$" description="show label grants for user|role" toReformat="false" toShortenFQNames="false">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="principalType" expression="enum(&quot;role&quot;,&quot;user&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="principal" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="slt" value="show label $label$ grants on table $table$;$END$" description="show label grants on table" toReformat="false" toShortenFQNames="false">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="slp" value="show label $label$ grants on table $table$ for $principalType$ $principal$;$END$" description="show label grants on table for user|role" toReformat="false" toShortenFQNames="false">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="principalType" expression="enum(&quot;role&quot;,&quot;user&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="principal" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="wai" value="whoami;$END$" description="show current user" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="sg" value="show grants;$END$" description="show grants" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="sgfu" value="show grants for $user$;$END$" description="show grants for user" toReformat="false" toShortenFQNames="false">
+    <variable name="user" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="der" value="describe role $role$;$END$" description="describe role|show grants for role" toReformat="false" toShortenFQNames="false">
+    <variable name="role" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="sa" value="show acl for $objectName$ on type $objectType$;$END$" description="show acl for object" toReformat="false" toShortenFQNames="false">
+    <variable name="objectName" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="objectType" expression="complete()" defaultValue="&quot;table&quot;" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="ssc" value="show SecurityConfiguration;$END$" description="show security configuration" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="suacl" value="set CheckPermissionUsingACL = $boolFlag$;$END$" description="set using ACL authorization mechanism" toReformat="false" toShortenFQNames="false">
+    <variable name="boolFlag" expression="enum(&quot;true&quot;,&quot;false&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="sup" value="set CheckPermissionUsingPolicy = $boolFlag$;$END$" description="set using Policy authorization mechanism" toReformat="false" toShortenFQNames="false">
+    <variable name="boolFlag" expression="enum(&quot;true&quot;,&quot;false&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="sca" value="set ObjectCreatorHasAccessPermission = $boolFlag$;$END$" description="set object creator has access privilege by default" toReformat="false" toShortenFQNames="false">
+    <variable name="boolFlag" expression="enum(&quot;true&quot;,&quot;false&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="scg" value="set ObjectCreatorHasGrantPermission = $boolFlag$;$END$" description="set object creator has grant privilege by default" toReformat="false" toShortenFQNames="false">
+    <variable name="boolFlag" expression="enum(&quot;true&quot;,&quot;false&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="sls" value="set LabelSecurity = $boolFlag$;$END$" description="set label security strategy" toReformat="false" toShortenFQNames="false">
+    <variable name="boolFlag" expression="enum(&quot;true&quot;,&quot;false&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="spp" value="set ProjectProtection = $boolFlag$ WITH EXCEPTION $policyFile$;$END$" description="set project protection:data flow out of project" toReformat="false" toShortenFQNames="false">
+    <variable name="boolFlag" expression="enum(&quot;true&quot;,&quot;false&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="policyFile" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ltp" value="list trustedprojects;$END$" description="list trusted projects" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="atp" value="add trustedproject $project$;$END$" description="add trusted project" toReformat="false" toShortenFQNames="false">
+    <variable name="project" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="rtp" value="remove trustedproject $project$;$END$" description="remove trusted project" toReformat="false" toShortenFQNames="false">
+    <variable name="project" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="lap" value="list accountproviders;$END$" description="list account providers" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="aap" value="add accountprovider $provider$;$END$" description="add account provider" toReformat="false" toShortenFQNames="false">
+    <variable name="provider" expression="" defaultValue="&quot;RAM&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="rap" value="remove accountprovider $provider$;$END$" description="remove account provider" toReformat="false" toShortenFQNames="false">
+    <variable name="provider" expression="" defaultValue="&quot;RAM&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

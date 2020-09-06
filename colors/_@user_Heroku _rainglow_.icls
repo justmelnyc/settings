@@ -4,7 +4,7 @@
     <property name="created">2018-12-29T12:51:54</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2019-01-06T03:39:14</property>
+    <property name="modified">2019-11-25T17:45:16</property>
     <property name="originalScheme">Heroku (rainglow)</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
@@ -1304,6 +1304,11 @@
     <option name="JFLEX_MACROS_REF">
       <value>
         <option name="FOREGROUND" value="1a1f29" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="f8d06e" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
