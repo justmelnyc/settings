@@ -4,7 +4,7 @@
     <property name="created">2019-08-12T11:23:36</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.2.0.0</property>
-    <property name="modified">2019-11-11T19:59:48</property>
+    <property name="modified">2020-09-22T10:01:52</property>
     <property name="originalScheme">Astral</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -1557,7 +1557,7 @@
     </option>
     <option name="JS.GLOBAL_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="268bd2" />
+        <option name="FOREGROUND" value="b3f5ae" />
       </value>
     </option>
     <option name="JS.GLOBAL_VARIABLE">
@@ -1567,7 +1567,7 @@
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="268bd2" />
+        <option name="FOREGROUND" value="b3f5ae" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
@@ -1620,7 +1620,7 @@
     </option>
     <option name="JS.PARAMETER">
       <value>
-        <option name="FOREGROUND" value="f0917c" />
+        <option name="FOREGROUND" value="deadea" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
