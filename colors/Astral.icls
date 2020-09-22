@@ -4,7 +4,7 @@
     <property name="created">2019-08-12T11:23:36</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.2.0.0</property>
-    <property name="modified">2020-09-22T10:01:52</property>
+    <property name="modified">2020-09-22T13:25:18</property>
     <property name="originalScheme">Astral</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -1552,7 +1552,7 @@
     </option>
     <option name="JS.EXPORTED.VARIABLE">
       <value>
-        <option name="FOREGROUND" value="be5b6d" />
+        <option name="FOREGROUND" value="fdb78a" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION">
@@ -1642,7 +1642,7 @@
     </option>
     <option name="JS.STRING">
       <value>
-        <option name="FOREGROUND" value="fae088" />
+        <option name="FOREGROUND" value="feeaa4" />
       </value>
     </option>
     <option name="JS.VALID_STRING_ESCAPE">
