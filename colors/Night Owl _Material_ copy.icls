@@ -4,7 +4,7 @@
     <property name="created">2020-09-23T07:23:55</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.2.2.0.0</property>
-    <property name="modified">2020-09-24T14:08:23</property>
+    <property name="modified">2020-09-25T00:46:12</property>
     <property name="originalScheme">_@user_Night Owl (Material)</property>
   </metaInfo>
   <console-font>
@@ -890,6 +890,11 @@
     <option name="GO_TYPE_REFERENCE">
       <value>
         <option name="FOREGROUND" value="c792ea" />
+      </value>
+    </option>
+    <option name="GRAPHQL_DIRECTIVE">
+      <value>
+        <option name="FOREGROUND" value="ef94b9" />
       </value>
     </option>
     <option name="GRAPHQL_TYPE_NAME">
