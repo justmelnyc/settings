@@ -4,7 +4,8 @@
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="14" />
-    <option name="FONT_FAMILY" value="Lars_FS_GI" />
+    <option name="FONT_FAMILY" value="Trim Mono" />
+    <option name="LINE_SPACING" value="1.4" />
   </component>
   <component name="EditorSettings">
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
