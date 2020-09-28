@@ -1,4 +1,10 @@
 <templateSet group="Zen HTML">
+  <template name="inp" value="&lt;input type=&quot;$VAR0$&quot; name=&quot;$NAME$&quot; id=&quot;$ID$&quot;&gt;" description="&lt;input type=&quot;...&quot; name=&quot;...&quot; id=&quot;...&quot;&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="ID" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
   <template name="td" value="&lt;td&gt;$END$&lt;/td&gt;" description="&lt;td&gt;...&lt;/td&gt;" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
