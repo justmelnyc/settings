@@ -5,4 +5,7 @@
     <variable name="ID" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="td" value="&lt;td&gt;$END$&lt;/td&gt;" description="&lt;td&gt;...&lt;/td&gt;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
