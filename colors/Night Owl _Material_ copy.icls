@@ -4,7 +4,7 @@
     <property name="created">2020-09-23T07:23:55</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.2.2.0.0</property>
-    <property name="modified">2020-09-26T15:54:52</property>
+    <property name="modified">2020-10-07T18:16:46</property>
     <property name="originalScheme">_@user_Night Owl (Material)</property>
   </metaInfo>
   <console-font>
@@ -1281,7 +1281,7 @@
     </option>
     <option name="JS.LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="addb67" />
+        <option name="FOREGROUND" value="c1f14e" />
       </value>
     </option>
     <option name="JS.MODULE_NAME">
