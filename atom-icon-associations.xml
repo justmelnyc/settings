@@ -10,9 +10,9 @@
             <option name="icon" value="/animations.svg" />
           </RegexAssociation>
           <RegexAssociation>
-            <option name="matcher" value="^/edit$" />
-            <option name="pattern" value="^/edit$" />
-            <option name="name" value="edit" />
+            <option name="matcher" value="signal" />
+            <option name="pattern" value="signal" />
+            <option name="name" value="signal" />
             <option name="icon" value="$USER_HOME$/WebstormProjects/icons/edit_folder.svg" />
           </RegexAssociation>
         </option>
