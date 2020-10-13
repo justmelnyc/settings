@@ -45,6 +45,12 @@
             <option name="name" value="nav" />
             <option name="icon" value="$USER_HOME$/WebstormProjects/icons/folder-routes.svg" />
           </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value="player" />
+            <option name="pattern" value="player" />
+            <option name="name" value="player" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/video.svg" />
+          </RegexAssociation>
         </option>
       </CustomAssociations>
     </option>
