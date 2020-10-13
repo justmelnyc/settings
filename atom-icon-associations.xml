@@ -33,6 +33,12 @@
             <option name="name" value="apollo" />
             <option name="icon" value="$USER_HOME$/WebstormProjects/icons/apollo.svg" />
           </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value="sentry" />
+            <option name="pattern" value="sentry" />
+            <option name="name" value="sentry" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/sentry.svg" />
+          </RegexAssociation>
         </option>
       </CustomAssociations>
     </option>
