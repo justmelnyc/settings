@@ -34,10 +34,16 @@
             <option name="icon" value="$USER_HOME$/WebstormProjects/icons/apollo.svg" />
           </RegexAssociation>
           <RegexAssociation>
-            <option name="matcher" value="sentry" />
-            <option name="pattern" value="sentry" />
+            <option name="matcher" value="$USER_HOME$/WebstormProjects/icons/sentry.svg" />
+            <option name="pattern" value="$USER_HOME$/WebstormProjects/icons/sentry.svg" />
             <option name="name" value="sentry" />
-            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/sentry.svg" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/folder-keys.svg" />
+          </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value="navigator" />
+            <option name="pattern" value="navigator" />
+            <option name="name" value="nav" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/folder-routes.svg" />
           </RegexAssociation>
         </option>
       </CustomAssociations>
