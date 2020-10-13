@@ -1,5 +1,17 @@
 <application>
   <component name="Atom Icon Associations Config">
+    <option name="customFileAssociations">
+      <CustomAssociations>
+        <option name="customAssociations">
+          <RegexAssociation>
+            <option name="matcher" value="index.js" />
+            <option name="pattern" value="index.js" />
+            <option name="name" value="index" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/js.svg" />
+          </RegexAssociation>
+        </option>
+      </CustomAssociations>
+    </option>
     <option name="customFolderAssociations">
       <CustomAssociations>
         <option name="customAssociations">
@@ -14,6 +26,12 @@
             <option name="pattern" value="signal" />
             <option name="name" value="signal" />
             <option name="icon" value="$USER_HOME$/WebstormProjects/icons/edit_folder.svg" />
+          </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value="apollo" />
+            <option name="pattern" value="apollo" />
+            <option name="name" value="apollo" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/apollo.svg" />
           </RegexAssociation>
         </option>
       </CustomAssociations>
