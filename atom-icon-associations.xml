@@ -22,22 +22,16 @@
             <option name="icon" value="/animations.svg" />
           </RegexAssociation>
           <RegexAssociation>
-            <option name="matcher" value="signal" />
-            <option name="pattern" value="signal" />
-            <option name="name" value="signal" />
-            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/edit_folder.svg" />
-          </RegexAssociation>
-          <RegexAssociation>
             <option name="matcher" value="apollo" />
             <option name="pattern" value="apollo" />
             <option name="name" value="apollo" />
             <option name="icon" value="$USER_HOME$/WebstormProjects/icons/apollo.svg" />
           </RegexAssociation>
           <RegexAssociation>
-            <option name="matcher" value="$USER_HOME$/WebstormProjects/icons/sentry.svg" />
-            <option name="pattern" value="$USER_HOME$/WebstormProjects/icons/sentry.svg" />
+            <option name="matcher" value="sentry" />
+            <option name="pattern" value="sentry" />
             <option name="name" value="sentry" />
-            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/folder-keys.svg" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/sentry.svg" />
           </RegexAssociation>
           <RegexAssociation>
             <option name="matcher" value="navigator" />
@@ -50,6 +44,12 @@
             <option name="pattern" value="player" />
             <option name="name" value="player" />
             <option name="icon" value="$USER_HOME$/WebstormProjects/icons/video.svg" />
+          </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value="signal" />
+            <option name="pattern" value="signal" />
+            <option name="name" value="signal" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/folder-prisma.svg" />
           </RegexAssociation>
         </option>
       </CustomAssociations>
