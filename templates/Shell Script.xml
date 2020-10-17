@@ -4,4 +4,20 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="useEffect" value="useEffect(()=&gt; {}, [])" description="useEffect" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="useState" value="const [$NAME$, set$NAME$] = useState($END$)" description="useState" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="useRef" value="const ref = useRef(null)" description="useRef" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
