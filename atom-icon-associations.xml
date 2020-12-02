@@ -51,6 +51,12 @@
             <option name="name" value="signal" />
             <option name="icon" value="$USER_HOME$/WebstormProjects/icons/folder-prisma.svg" />
           </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value="account" />
+            <option name="pattern" value="account" />
+            <option name="name" value="account" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/video.svg" />
+          </RegexAssociation>
         </option>
       </CustomAssociations>
     </option>
