@@ -4,7 +4,7 @@
     <property name="created">2020-03-30T20:21:18</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.3.4.0.0</property>
-    <property name="modified">2020-12-02T17:06:16</property>
+    <property name="modified">2020-12-07T07:41:52</property>
     <property name="originalScheme">Heroku (rainglow) copy</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
@@ -586,6 +586,7 @@
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="585480" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
@@ -1379,7 +1380,7 @@
     </option>
     <option name="JS.GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="7067f8" />
+        <option name="FOREGROUND" value="857eec" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
