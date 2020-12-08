@@ -4,7 +4,7 @@
     <property name="created">2020-03-30T20:21:18</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.3.4.0.0</property>
-    <property name="modified">2020-12-07T07:41:52</property>
+    <property name="modified">2020-12-08T09:53:00</property>
     <property name="originalScheme">Heroku (rainglow) copy</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
@@ -1405,7 +1405,7 @@
     </option>
     <option name="JS.LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="eeb393" />
+        <option name="FOREGROUND" value="fefbe8" />
       </value>
     </option>
     <option name="JS.NUMBER">
