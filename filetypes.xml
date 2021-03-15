@@ -2,7 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern=".editoricons" type="JSON" />
-      <removed_mapping ext="graphqlconfig" type="JSON" />
+      <mapping ext="graphqlconfig" type="JSON" />
       <mapping pattern="imndex" type="PLAIN_TEXT" />
       <mapping pattern="components" type="PLAIN_TEXT" />
       <mapping pattern=".jsconfig" type="PLAIN_TEXT" />
