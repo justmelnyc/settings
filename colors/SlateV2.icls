@@ -4,16 +4,16 @@
     <property name="created">2017-02-17T20:27:05</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.3.0.0</property>
-    <property name="modified">2017-03-22T10:42:53</property>
+    <property name="modified">2021-04-17T17:29:31</property>
     <property name="originalScheme">Slate</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
   <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="EDITOR_FONT_NAME" value="Roboto Mono" />
   <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Roboto Mono" />
   <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="EDITOR_FONT_NAME" value="Roboto Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="292d38" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
@@ -79,11 +79,6 @@
       <value>
         <option name="FOREGROUND" value="c57633" />
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="BASH.INTERNAL_COMMAND">
-      <value>
-        <option name="FOREGROUND" value="b0c95" />
       </value>
     </option>
     <option name="BNF_EXTERNAL">
@@ -925,6 +920,11 @@
     <option name="JS.ATTRIBUTE">
       <value />
     </option>
+    <option name="JS.GLOBAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="70d0d5" />
+      </value>
+    </option>
     <option name="JS.GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="8a85ca" />
@@ -937,7 +937,7 @@
     </option>
     <option name="JS.LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="d4504e" />
+        <option name="FOREGROUND" value="fcf87f" />
       </value>
     </option>
     <option name="JS.PARAMETER">
