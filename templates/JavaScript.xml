@@ -5,4 +5,14 @@
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="ctrl" value="export default async (req, res, next) =&gt; {&#10;    res.status(200).json({&#10;        success: true,&#10;        data: {}&#10;    })&#10;}" description="Express Route Controller" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try {&#10;} catch (e) {&#10; console.log(e.message)&#10;}" description="Try Catch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
