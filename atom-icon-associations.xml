@@ -16,10 +16,10 @@
       <CustomAssociations>
         <option name="customAssociations">
           <RegexAssociation>
-            <option name="matcher" value="^(show)$" />
-            <option name="pattern" value="^(show)$" />
-            <option name="name" value="show" />
-            <option name="icon" value="/animations.svg" />
+            <option name="matcher" value="^(stream)$" />
+            <option name="pattern" value="^(stream)$" />
+            <option name="name" value="stream" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/desktop.svg" />
           </RegexAssociation>
           <RegexAssociation>
             <option name="matcher" value="apollo" />
