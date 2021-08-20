@@ -71,4 +71,9 @@
     </context>
   </template>
   <template name="std" value="const Container = styled.div`&#10;    background: salmon;&#10;    $END$&#10;`" description="Styled Component React" toReformat="false" toShortenFQNames="true" />
+  <template name="fun" value="export default () =&gt; {&#10;    $END$&#10;}" description="export default function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
