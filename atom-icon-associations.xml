@@ -16,8 +16,8 @@
       <CustomAssociations>
         <option name="customAssociations">
           <RegexAssociation>
-            <option name="matcher" value="^(stream)$" />
-            <option name="pattern" value="^(stream)$" />
+            <option name="matcher" value="^(streams?)$" />
+            <option name="pattern" value="^(streams?)$" />
             <option name="name" value="stream" />
             <option name="icon" value="$USER_HOME$/WebstormProjects/icons/desktop.svg" />
           </RegexAssociation>
