@@ -63,6 +63,12 @@
             <option name="name" value="accounts" />
             <option name="icon" value="$USER_HOME$/WebstormProjects/icons/video.svg" />
           </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value="^(playlists?)$" />
+            <option name="pattern" value="^(playlists?)$" />
+            <option name="name" value="cluster" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/cluster.svg" />
+          </RegexAssociation>
         </option>
       </CustomAssociations>
     </option>
