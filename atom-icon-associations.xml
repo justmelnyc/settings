@@ -69,6 +69,12 @@
             <option name="name" value="cluster" />
             <option name="icon" value="$USER_HOME$/WebstormProjects/icons/cluster.svg" />
           </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value="api" />
+            <option name="pattern" value="api" />
+            <option name="name" value="api" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/folder-node.svg" />
+          </RegexAssociation>
         </option>
       </CustomAssociations>
     </option>
