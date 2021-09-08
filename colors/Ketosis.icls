@@ -4,7 +4,7 @@
     <property name="created">2021-09-05T13:04:06</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.2.0.0</property>
-    <property name="modified">2021-09-07T17:44:15</property>
+    <property name="modified">2021-09-08T15:49:43</property>
     <property name="originalScheme">Night Owl (Material) copy</property>
   </metaInfo>
   <console-font>
@@ -1256,7 +1256,7 @@
     </option>
     <option name="JS.FUNCTION_ARROW">
       <value>
-        <option name="FOREGROUND" value="ea5d54" />
+        <option name="FOREGROUND" value="ff8e95" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION">
@@ -1266,7 +1266,7 @@
     </option>
     <option name="JS.GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="79ffe1" />
+        <option name="FOREGROUND" value="79ffb8" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
@@ -1282,6 +1282,11 @@
     <option name="JS.KEYWORD">
       <value>
         <option name="FOREGROUND" value="818e96" />
+      </value>
+    </option>
+    <option name="JS.LOCAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="71d7e0" />
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE">
@@ -3555,7 +3560,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d6deeb" />
-        <option name="BACKGROUND" value="11627" />
+        <option name="BACKGROUND" value="d131a" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
