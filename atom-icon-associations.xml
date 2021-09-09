@@ -75,6 +75,18 @@
             <option name="name" value="api" />
             <option name="icon" value="$USER_HOME$/WebstormProjects/icons/folder-node.svg" />
           </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value="context" />
+            <option name="pattern" value="context" />
+            <option name="name" value="context" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/context.svg" />
+          </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value="auth" />
+            <option name="pattern" value="auth" />
+            <option name="name" value="auth" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/private.svg" />
+          </RegexAssociation>
         </option>
       </CustomAssociations>
     </option>
