@@ -87,6 +87,12 @@
             <option name="name" value="auth" />
             <option name="icon" value="$USER_HOME$/WebstormProjects/icons/private.svg" />
           </RegexAssociation>
+          <RegexAssociation>
+            <option name="matcher" value="[slug]" />
+            <option name="pattern" value="[slug]" />
+            <option name="name" value="slug" />
+            <option name="icon" value="$USER_HOME$/WebstormProjects/icons/folder-template.svg" />
+          </RegexAssociation>
         </option>
       </CustomAssociations>
     </option>
